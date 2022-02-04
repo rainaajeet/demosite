@@ -1,9 +1,16 @@
 <html>
-  <head>
-     <script src="app/action.js"></script>
-  </head>
- <body>
-      <button type=“button onclick="DisplayQuote()"> Click Here to Display Quotes!</button>
-       <p> id="hiddenQuote" style="display:none"> Health is Wealth!</p>
+<body>
+
+<h2>What's the date today?</h2>
+
+
+<p id="demo"></p>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
 </body>
 </html>
